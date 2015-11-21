@@ -11,6 +11,9 @@
             <TablixColumn>
               <Width>1in</Width>
             </TablixColumn>
+            <TablixColumn>
+              <Width>1in</Width>
+            </TablixColumn>
           </TablixColumns>
           <TablixRows>
             <TablixRow>
@@ -25,27 +28,25 @@
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>EMPLOYEE ID</Value>
+                              <Value>NOMBRE</Value>
                               <Style>
-                                <FontFamily>Tahoma</FontFamily>
+                                <FontFamily>Times New Roman</FontFamily>
                                 <FontSize>11pt</FontSize>
                                 <FontWeight>Bold</FontWeight>
                                 <Color>White</Color>
                               </Style>
                             </TextRun>
                           </TextRuns>
-                          <Style>
-                            <TextAlign>Right</TextAlign>
-                          </Style>
+                          <Style />
                         </Paragraph>
                       </Paragraphs>
                       <rd:DefaultName>textbox2</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
+                          <Color>DarkGray</Color>
                           <Style>Solid</Style>
                         </Border>
-                        <BackgroundColor>SteelBlue</BackgroundColor>
+                        <BackgroundColor>#365838</BackgroundColor>
                         <PaddingLeft>2pt</PaddingLeft>
                         <PaddingRight>2pt</PaddingRight>
                         <PaddingTop>2pt</PaddingTop>
@@ -63,9 +64,9 @@
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>FIRST NAME</Value>
+                              <Value>JOB ID</Value>
                               <Style>
-                                <FontFamily>Tahoma</FontFamily>
+                                <FontFamily>Times New Roman</FontFamily>
                                 <FontSize>11pt</FontSize>
                                 <FontWeight>Bold</FontWeight>
                                 <Color>White</Color>
@@ -78,10 +79,48 @@
                       <rd:DefaultName>textbox3</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
+                          <Color>DarkGray</Color>
                           <Style>Solid</Style>
                         </Border>
-                        <BackgroundColor>SteelBlue</BackgroundColor>
+                        <BackgroundColor>#365838</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="textbox4">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>SALARIO</Value>
+                              <Style>
+                                <FontFamily>Times New Roman</FontFamily>
+                                <FontSize>11pt</FontSize>
+                                <FontWeight>Bold</FontWeight>
+                                <Color>White</Color>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Right</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>textbox4</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>DarkGray</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>#365838</BackgroundColor>
                         <PaddingLeft>2pt</PaddingLeft>
                         <PaddingRight>2pt</PaddingRight>
                         <PaddingTop>2pt</PaddingTop>
@@ -93,30 +132,31 @@
               </TablixCells>
             </TablixRow>
             <TablixRow>
-              <Height>0.21in</Height>
+              <Height>0.19in</Height>
               <TablixCells>
                 <TablixCell>
                   <CellContents>
-                    <Textbox Name="EMPLOYEE_ID">
+                    <Textbox Name="LAST_NAME">
                       <CanGrow>true</CanGrow>
                       <KeepTogether>true</KeepTogether>
                       <Paragraphs>
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>=Fields!EMPLOYEE_ID.Value</Value>
+                              <Value>=Fields!LAST_NAME.Value</Value>
                               <Style>
-                                <FontFamily>Tahoma</FontFamily>
+                                <FontFamily>Times New Roman</FontFamily>
+                                <FontSize>9pt</FontSize>
                               </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
                         </Paragraph>
                       </Paragraphs>
-                      <rd:DefaultName>EMPLOYEE_ID</rd:DefaultName>
+                      <rd:DefaultName>LAST_NAME</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
+                          <Color>DarkGray</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -129,26 +169,60 @@
                 </TablixCell>
                 <TablixCell>
                   <CellContents>
-                    <Textbox Name="FIRST_NAME">
+                    <Textbox Name="JOB_ID">
                       <CanGrow>true</CanGrow>
                       <KeepTogether>true</KeepTogether>
                       <Paragraphs>
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>=Fields!FIRST_NAME.Value</Value>
+                              <Value>=Fields!JOB_ID.Value</Value>
                               <Style>
-                                <FontFamily>Tahoma</FontFamily>
+                                <FontFamily>Times New Roman</FontFamily>
+                                <FontSize>9pt</FontSize>
                               </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
                         </Paragraph>
                       </Paragraphs>
-                      <rd:DefaultName>FIRST_NAME</rd:DefaultName>
+                      <rd:DefaultName>JOB_ID</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
+                          <Color>DarkGray</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="SAL">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!SAL.Value</Value>
+                              <Style>
+                                <FontFamily>Times New Roman</FontFamily>
+                                <FontSize>9pt</FontSize>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>SAL</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>DarkGray</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -165,6 +239,7 @@
         </TablixBody>
         <TablixColumnHierarchy>
           <TablixMembers>
+            <TablixMember />
             <TablixMember />
             <TablixMember />
           </TablixMembers>
@@ -190,9 +265,9 @@
           </TablixMembers>
         </TablixRowHierarchy>
         <DataSetName>DataSet1</DataSetName>
-        <Top>0.36in</Top>
-        <Height>0.43in</Height>
-        <Width>2in</Width>
+        <Top>0.33in</Top>
+        <Height>0.41in</Height>
+        <Width>3in</Width>
         <Style />
       </Tablix>
       <Textbox Name="textbox1">
@@ -202,12 +277,11 @@
           <Paragraph>
             <TextRuns>
               <TextRun>
-                <Value>Reporte01_01</Value>
+                <Value>Reporte de Empleados - Nro.01</Value>
                 <Style>
-                  <FontFamily>Tahoma</FontFamily>
-                  <FontSize>20pt</FontSize>
-                  <FontWeight>Bold</FontWeight>
-                  <Color>SteelBlue</Color>
+                  <FontFamily>Times New Roman</FontFamily>
+                  <FontSize>18pt</FontSize>
+                  <Color>#365838</Color>
                 </Style>
               </TextRun>
             </TextRuns>
@@ -215,7 +289,7 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>textbox1</rd:DefaultName>
-        <Height>0.36in</Height>
+        <Height>0.33in</Height>
         <Width>5in</Width>
         <ZIndex>1</ZIndex>
         <Style>
@@ -226,7 +300,7 @@
         </Style>
       </Textbox>
     </ReportItems>
-    <Height>0.79in</Height>
+    <Height>0.74in</Height>
     <Style />
   </Body>
   <Width>5in</Width>
@@ -242,24 +316,28 @@
     <DataSource Name="dsOracle">
       <DataSourceReference>dsOracle</DataSourceReference>
       <rd:SecurityType>None</rd:SecurityType>
-      <rd:DataSourceID>5b228bb3-4534-498f-a137-1d95c01db859</rd:DataSourceID>
+      <rd:DataSourceID>dad50ec8-de95-4330-8810-14e571c2a998</rd:DataSourceID>
     </DataSource>
   </DataSources>
   <DataSets>
     <DataSet Name="DataSet1">
       <Query>
         <DataSourceName>dsOracle</DataSourceName>
-        <CommandText>SELECT EMPLOYEE_ID, FIRST_NAME FROM HR.EMPLOYEES</CommandText>
+        <CommandText>SELECT last_name, job_id, salary AS Sal FROM hr.employees</CommandText>
         <rd:UseGenericDesigner>true</rd:UseGenericDesigner>
       </Query>
       <Fields>
-        <Field Name="EMPLOYEE_ID">
-          <DataField>EMPLOYEE_ID</DataField>
-          <rd:TypeName>System.Decimal</rd:TypeName>
-        </Field>
-        <Field Name="FIRST_NAME">
-          <DataField>FIRST_NAME</DataField>
+        <Field Name="LAST_NAME">
+          <DataField>LAST_NAME</DataField>
           <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="JOB_ID">
+          <DataField>JOB_ID</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="SAL">
+          <DataField>SAL</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
         </Field>
       </Fields>
     </DataSet>
@@ -267,5 +345,5 @@
   <Language>es-ES</Language>
   <ConsumeContainerWhitespace>true</ConsumeContainerWhitespace>
   <rd:ReportUnitType>Inch</rd:ReportUnitType>
-  <rd:ReportID>8b2b3245-3834-42e6-957b-85629d0f93d7</rd:ReportID>
+  <rd:ReportID>3eed6398-0d01-4c61-9507-1124a3a07def</rd:ReportID>
 </Report>

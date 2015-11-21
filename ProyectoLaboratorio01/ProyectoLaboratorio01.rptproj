@@ -10,8 +10,20 @@
   <DataSets />
   <Reports>
     <ProjectItem>
-      <Name>Reporte01_01.rdl</Name>
-      <FullPath>Reporte01_01.rdl</FullPath>
+      <Name>rptEmpleado-01.rdl</Name>
+      <FullPath>rptEmpleado-01.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>rptEmpleadoXfecha-02.rdl</Name>
+      <FullPath>rptEmpleadoXfecha-02.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>rptEpleadoXtrabajo-03.rdl</Name>
+      <FullPath>rptEpleadoXtrabajo-03.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>rptEmpleadosPuestoFecha-04.rdl</Name>
+      <FullPath>rptEmpleadosPuestoFecha-04.rdl</FullPath>
     </ProjectItem>
   </Reports>
   <Configurations>
