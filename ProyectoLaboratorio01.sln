@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "ProyectoLaboratorio01", "ProyectoLaboratorio01\ProyectoLaboratorio01.rptproj", "{DB3D06F9-1367-4CEA-B4B7-69448B8E463E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB3D06F9-1367-4CEA-B4B7-69448B8E463E}.Debug|Default.ActiveCfg = Debug
+		{DB3D06F9-1367-4CEA-B4B7-69448B8E463E}.Debug|Default.Build.0 = DebugLocal
+		{DB3D06F9-1367-4CEA-B4B7-69448B8E463E}.Debug|Default.Deploy.0 = DebugLocal
+		{DB3D06F9-1367-4CEA-B4B7-69448B8E463E}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{DB3D06F9-1367-4CEA-B4B7-69448B8E463E}.DebugLocal|Default.Build.0 = DebugLocal
+		{DB3D06F9-1367-4CEA-B4B7-69448B8E463E}.Release|Default.ActiveCfg = Release
+		{DB3D06F9-1367-4CEA-B4B7-69448B8E463E}.Release|Default.Build.0 = Release
+		{DB3D06F9-1367-4CEA-B4B7-69448B8E463E}.Release|Default.Deploy.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
