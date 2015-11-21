@@ -10,20 +10,36 @@
   <DataSets />
   <Reports>
     <ProjectItem>
-      <Name>rptEmpleado-01.rdl</Name>
-      <FullPath>rptEmpleado-01.rdl</FullPath>
+      <Name>rpt-01-Empleado.rdl</Name>
+      <FullPath>rpt-01-Empleado.rdl</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>rptEmpleadoXfecha-02.rdl</Name>
-      <FullPath>rptEmpleadoXfecha-02.rdl</FullPath>
+      <Name>rpt-04-EmpleadosPuestoFecha.rdl</Name>
+      <FullPath>rpt-04-EmpleadosPuestoFecha.rdl</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>rptEpleadoXtrabajo-03.rdl</Name>
-      <FullPath>rptEpleadoXtrabajo-03.rdl</FullPath>
+      <Name>rpt-02-EmpleadoXfecha.rdl</Name>
+      <FullPath>rpt-02-EmpleadoXfecha.rdl</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>rptEmpleadosPuestoFecha-04.rdl</Name>
-      <FullPath>rptEmpleadosPuestoFecha-04.rdl</FullPath>
+      <Name>rpt-05-EmpleadoYpuesto.rdl</Name>
+      <FullPath>rpt-05-EmpleadoYpuesto.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>rpt-03-EpleadoXtrabajo.rdl</Name>
+      <FullPath>rpt-03-EpleadoXtrabajo.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>rpt-06-EmpleadoDetallado.rdl</Name>
+      <FullPath>rpt-06-EmpleadoDetallado.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>rpt-07-EmpleadoSalario.rdl</Name>
+      <FullPath>rpt-07-EmpleadoSalario.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>rpt-08-EmpleadoBusquedaXid.rdl</Name>
+      <FullPath>rpt-08-EmpleadoBusquedaXid.rdl</FullPath>
     </ProjectItem>
   </Reports>
   <Configurations>
