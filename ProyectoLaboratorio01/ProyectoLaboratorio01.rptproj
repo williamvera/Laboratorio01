@@ -14,20 +14,20 @@
       <FullPath>rpt-01-Empleado.rdl</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>rpt-04-EmpleadosPuestoFecha.rdl</Name>
-      <FullPath>rpt-04-EmpleadosPuestoFecha.rdl</FullPath>
-    </ProjectItem>
-    <ProjectItem>
       <Name>rpt-02-EmpleadoXfecha.rdl</Name>
       <FullPath>rpt-02-EmpleadoXfecha.rdl</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>rpt-05-EmpleadoYpuesto.rdl</Name>
-      <FullPath>rpt-05-EmpleadoYpuesto.rdl</FullPath>
-    </ProjectItem>
-    <ProjectItem>
       <Name>rpt-03-EpleadoXtrabajo.rdl</Name>
       <FullPath>rpt-03-EpleadoXtrabajo.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>rpt-04-EmpleadosPuestoFecha.rdl</Name>
+      <FullPath>rpt-04-EmpleadosPuestoFecha.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>rpt-05-EmpleadoYpuesto.rdl</Name>
+      <FullPath>rpt-05-EmpleadoYpuesto.rdl</FullPath>
     </ProjectItem>
     <ProjectItem>
       <Name>rpt-06-EmpleadoDetallado.rdl</Name>
@@ -40,6 +40,34 @@
     <ProjectItem>
       <Name>rpt-08-EmpleadoBusquedaXid.rdl</Name>
       <FullPath>rpt-08-EmpleadoBusquedaXid.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>rpt-09-EmpleadoSalarioMenoresMayores.rdl</Name>
+      <FullPath>rpt-09-EmpleadoSalarioMenoresMayores.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>rpt-10-EmpleadoApellido.rdl</Name>
+      <FullPath>rpt-10-EmpleadoApellido.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>rpt-11-EmpleadoDepartamento.rdl</Name>
+      <FullPath>rpt-11-EmpleadoDepartamento.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>rpt-12-EmpleadoCompuesto.rdl</Name>
+      <FullPath>rpt-12-EmpleadoCompuesto.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>rpt-13-EmpleadoContrato2008.rdl</Name>
+      <FullPath>rpt-13-EmpleadoContrato2008.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>rpt-14-EmpleadoAdmNull.rdl</Name>
+      <FullPath>rpt-14-EmpleadoAdmNull.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>rpt-15-EmpleadosPorcentaje.rdl</Name>
+      <FullPath>rpt-15-EmpleadosPorcentaje.rdl</FullPath>
     </ProjectItem>
   </Reports>
   <Configurations>
